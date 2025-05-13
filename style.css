@@ -42,7 +42,7 @@ p {
   font-weight: bold;
 }
 .block {
-    display: block;
+  display: block;
 }
 
 .banner {
@@ -75,8 +75,6 @@ p {
   margin-top: 80px;
 }
 
-
-
 .banner__img {
   max-width: 600px;
   height: 100%;
@@ -108,24 +106,23 @@ p {
   gap: 40px;
 }
 
-.w-50{
-    width: 50%;
+.w-50 {
+  width: 50%;
 }
 
 .p-40px {
-    padding: 40px;
+  padding: 40px;
 }
 
 .history__left p {
-    font-size: 18pt;
+  font-size: 18pt;
   color: #ffffff;
   margin-top: 20px;
-    
 }
 
 .history__title {
-    font-size: 36pt;
-    margin-bottom: 20px;
+  font-size: 36pt;
+  margin-bottom: 20px;
   font-weight: 700;
   font-family: "TT Hoves", sans-serif;
   color: #ffffff;
@@ -146,113 +143,123 @@ p {
   padding: 40px;
 }
 
-.history__right p{
-    font-size: 18pt;
-    color: #ffffff;
-    margin-bottom: 20px;
+.history__right p {
+  font-size: 18pt;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
-.product__content{
-    display: flex;
-    gap: 30px;
-    margin-top: 60px;
+.product__content {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
 }
-.product__item{
-    width: auto;
+.product__item {
+  width: auto;
 }
 .product__item_thumbnail {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.product__item img{
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    overflow: hidden;
-    object-fit: cover;
+.product__item img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 .product__item_text {
-    font-size: 28pt;
-    color: #ff914d;
-    text-align: center;
-    margin-top: 20px;
+  font-size: 28pt;
+  color: #ff914d;
+  text-align: center;
+  margin-top: 20px;
 }
-.history__right-thumbnail img{
-    width: 100%;
-    border-radius: 20px;
+.history__right-thumbnail img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .contact__wrapper {
-    display: flex;
-    padding: 0 60px;
+  display: flex;
+  padding: 0 60px;
 }
 
 .contact__wrapper p {
-    color: #ff914d;
-    font-size: 22pt;
-    margin-bottom: 30px;
+  color: #ff914d;
+  font-size: 22pt;
+  margin-bottom: 30px;
 }
-.contact__left{
-    padding: 60px 0;
+.contact__left {
+  padding: 60px 0;
 }
 .contact__right {
-    width: 50%;
-    display: flex;
-    justify-content: end;
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
 .contact__right svg {
-    width: 60%;
-    object-fit: cover;
+  width: 60%;
+  object-fit: cover;
+}
+
+.founder__name {
+  font-size: 22pt;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px !important;
+}
+
+.founder__role {
+  font-size: 15pt;
+  color: #ffffff;
+  margin: 0 !important;
+  text-align: center;
 }
 
 @media (max-width: 1115px) {
-    .banner__image {
-       display: none;
-    }
+  .banner__image {
+    display: none;
+  }
 
-    .history__left {
-        width: 100%;
-    }
+  .history__left {
+    width: 100%;
+  }
 
-    .history__right{
-        padding: 0;
-    }
-    .product__content {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-   
-   
+  .history__right {
+    padding: 0;
+  }
+  .product__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
-
-
 
 @media (max-width: 700px) {
-    .container, .banner__content, .history{
-        padding: 60px 20px;
-    }
-    .banner__description {
-        margin-top: 30px;
-    }
-    p {
-        font-size: 12pt !important;
-    }
-    .banner__image {
-       display: none;
-    }
+  .container,
+  .banner__content,
+  .history {
+    padding: 60px 20px;
+  }
+  .banner__description {
+    margin-top: 30px;
+  }
+  p {
+    font-size: 12pt !important;
+  }
+  .banner__image {
+    display: none;
+  }
 
-    .about__content {
-        padding: 10px 0;
-    }
+  .about__content {
+    padding: 10px 0;
+  }
 
-    .contact__wrapper  {
-        padding: 10px 20px;
-    }
+  .contact__wrapper {
+    padding: 10px 20px;
+  }
 
-    .contact__left{
-        width: 100%;
-    }
-   
+  .contact__left {
+    width: 100%;
+  }
 }
-
-
